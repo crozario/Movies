@@ -11,13 +11,16 @@ import UIKit
 class TabBarController: UITabBarController {
     override func viewDidLoad() {
         let homeViewController = HomeViewController()
-        homeViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        homeViewController.tabBarItem.image = #imageLiteral(resourceName: "HomeIcon")
         
         let searchViewController = SearchViewController()
-        searchViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 1)
-        
+//        searchViewController.tabBarItem = UITabBarItem(title: "Search", image: #imageLiteral(resourceName: "SearchIcon"), tag: 1)
+        searchViewController.tabBarItem.image = #imageLiteral(resourceName: "SearchIcon")
+
         let tabBarList = [homeViewController, searchViewController]
         
         viewControllers = tabBarList
     }
 }
+
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4008930211910A300FA689B /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400892F211910A300FA689B /* Setting.swift */; };
 		C4AFEA0320AE2D2D00777635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AFEA0220AE2D2D00777635 /* AppDelegate.swift */; };
 		C4AFEA0820AE2D2D00777635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AFEA0620AE2D2D00777635 /* Main.storyboard */; };
 		C4AFEA0A20AE2D2E00777635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AFEA0920AE2D2E00777635 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C400892F211910A300FA689B /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		C4AFE9FF20AE2D2D00777635 /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AFEA0220AE2D2D00777635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AFEA0720AE2D2D00777635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				C4AFEA1A20AE331300777635 /* TheMovieDatabaseAPI.swift */,
+				C400892F211910A300FA689B /* Setting.swift */,
 				C4AFEA1620AE2F1A00777635 /* Movies.swift */,
 			);
 			path = Models;
@@ -167,6 +170,7 @@
 				C4AFEA1B20AE331300777635 /* TheMovieDatabaseAPI.swift in Sources */,
 				C4AFEA0320AE2D2D00777635 /* AppDelegate.swift in Sources */,
 				C4AFEA1720AE2F1A00777635 /* Movies.swift in Sources */,
+				C4008930211910A300FA689B /* Setting.swift in Sources */,
 				C4B11CBA20F1247B004862EC /* TabBarController.swift in Sources */,
 				C4AFEA1920AE30C200777635 /* HomeViewController.swift in Sources */,
 			);

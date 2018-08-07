@@ -8,15 +8,20 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout{
+class HomeViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.cyan
+        view.backgroundColor = UIColorFromRGB(rgbValue: 0x92a4c0)
     
         
         
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1
+    }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
